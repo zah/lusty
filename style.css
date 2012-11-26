@@ -123,6 +123,13 @@ p { margin: 0 0 0.8em 0; line-height: 1.2em}
   height: 32px;
 }
 
+.icon.twitter {
+  margin-bottom: 2px;
+  margin-left: 2px;
+  height: 28px;
+  width: 28px;
+}
+
 .temida{
   position:absolute;
   bottom:32px;
