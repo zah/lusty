@@ -118,6 +118,11 @@ p { margin: 0 0 0.8em 0; line-height: 1.2em}
   z-index:10;
 }
 
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
 .temida{
   position:absolute;
   bottom:32px;
