@@ -1,0 +1,168 @@
+* { margin:0; }
+
+html {
+  min-height: 100px;
+  /*background: #FBF9F6;*/
+}
+
+body {
+  margin: 15px;
+  height: 100%;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Book Antiqua", Arial, Helvetica, Sans Serif;
+  /*line-height: 120%; */
+  font-size: 0.8em;
+  color: #fff;
+  background: #554139;
+  
+}
+
+h1 { font-size:1em; font-style:bold; padding-bottom:1em; }
+p { margin: 0 0 0.8em 0; line-height: 1.2em}
+
+#wrap {
+  width: 850px;
+  /*	height:400px;*/
+  position:relative;
+  margin:0 auto;
+  background-image: url(img/wrapper_bgr.gif);
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.header {
+  position:relative;
+  left:25px;
+  width: 800px;
+  height: 125px;
+  margin: 0;
+  background: url(img/header_bgr_eu4.png);
+}
+.header img {
+  /*width: 384px;*/
+  height: 125px;
+  float:left;
+}
+.header p {
+  position:absolute;
+  right:20px;
+  bottom:10px;
+  text-align:right;
+  vertical-align:bottom;
+  margin: 0px;
+  
+  line-height:1.4em;
+  font-size:1em;
+  font-weight:bold;
+}
+.header a{
+  color:#fff;
+}
+
+.topmenu{
+  position:relative;
+  left:25px;
+  width: 800px;
+  height: 17px;
+  background-image: url(img/topmenu_bgr.gif);
+  margin: 0;
+  text-align:right;
+  font-size: 0.79em;
+}
+.topmenu img{
+  position:relative;
+  border:0;
+  top:2px;
+}
+.topmenu a { 
+  text-decoration:none;
+  color: #fff;
+}
+.topmenu a:hover{
+  color: #ccc;
+}
+
+.mainmenu{
+  position:absolute;
+  left:25px;
+  width: 182px;
+  /*height: 100%;*/
+  background: #650a0a;
+  margin: 0;
+}
+
+.mainmenu div{
+  height:15px;
+  padding:8px;
+  background-image:url(img/button_bgr.gif);
+}
+.mainmenu div:hover{ background-image:url(img/button_bgr_over.gif); }
+.mainmenu div.active { background-image:url(img/button_bgr_active.gif); }
+.mainmenu a{
+  font-family: Arial, Helvetica, Sans Serif;
+  font-size: 0.9em;
+  font-weight:bold;
+  text-decoration:none;
+  color: #ddd;
+}
+
+.mainmenu a:hover{
+  color: #fff;
+}
+
+.scroll {
+  position:absolute;
+  top:250px;
+  left:37px;
+  width:160px;
+  z-index:10;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.icon.twitter {
+  margin-bottom: 2px;
+  margin-left: 2px;
+  height: 28px;
+  width: 28px;
+}
+
+.temida{
+  position:absolute;
+  bottom:32px;
+  left:25px;
+  width:182px;
+  height:368px;
+  background-image:url(img/temida.gif);
+}
+
+.content{
+  position:static;
+  /*float:right;*/
+  top:0px;
+  left:0px;
+  width:568px;
+  padding:20px;
+  margin-left:217px;
+  background: #092443;
+  text-align:justify;
+}
+
+.mainpic{
+  margin: 0 15px 5px 0;
+  float:left;
+}
+
+.footer{
+  position:relative;
+  width: 850px;
+  height: 32px;
+  background-image: url(img/footer.gif);
+  margin: 0;
+  text-align:center;
+  font-size: 0.79em;
+}
+
